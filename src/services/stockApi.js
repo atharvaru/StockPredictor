@@ -2,7 +2,7 @@ import axios from 'axios'
 // Api key
 // remeber to add api key when working but delete before pushing to github
 // PEVPPS8KPG6UBQE3
-const ALPHA_VANTAGE_API_KEY = '';
+const ALPHA_VANTAGE_API_KEY = 'PEVPPS8KPG6UBQE3';
 const BASE_URL = 'https://www.alphavantage.co/query';
 // Function to get stock data from API
 export async function getStockData(symbol) {
